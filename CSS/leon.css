@@ -395,13 +395,15 @@ body {
 
 .portfolio .portfolio-box .card {
     background-color: white;
+    overflow: hidden;
 }
 
 .portfolio .portfolio-box .card img {
     max-width: 100%;
     transition: 0.3s;
     position: relative;
-    overflow: hidden;
+ 
+    filter: saturate(0.2);
 }
 
 .portfolio .portfolio-box .card .card-body {
@@ -419,8 +421,8 @@ body {
 }
 
 .portfolio .portfolio-box .card:hover img {
-    transform: scale(0.95);
-
+    transform: scale(1.1);
+    filter: none;
 }
 
 
